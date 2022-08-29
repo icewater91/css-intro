@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>CSS 2</title>
+
+		<style>
+			ul {
+				color: green;
+			}
+			
+			a:hover, a:visited {
+				font-weight: bold;
+				color: black;
+			}
+
+			li:first-child, li:last-child {
+				font-weight: bold;
+			}
+
+			li:nth-child(odd):hover {
+				color: red;
+			}
+
+			a:hover {
+				color: red;
+			}
+
+			.red {
+				color: red;
+			}
+
+			.blue {
+				color: blue;
+			}
+		</style>
+	</head>
+
+	<body>
+		<a class="blue" href="http://morgenbladet.no">morgenbladet.no</a>
+
+		<ul>
+			<li id="first">First</li>
+			<li class="blue red">Second</li>
+			<li class="red blue">Third</li>
+			<li>Fourth</li>
+			<li>Fifth</li>
+			<li>Fifth</li>
+			<li>Fifth</li>
+			<li>Fifth</li>
+			<li>Fifth</li>
+			<li>Fifth</li>
+			<li>Fifth</li>
+		</ul>
+	</body>
+</html>

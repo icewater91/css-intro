@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Variable</title>
+
+		<style>
+			:root {
+				--background_color: #eee;
+				--text_color: blue;
+				--text_primary: 50px;
+				--text_secondary: 30px;
+				--text_tertiary: 20px;
+			}
+
+			body {
+				font-family: Arial;
+				background: var(--background_color);
+				color: var(--text_color);
+			}
+
+			h1 {
+				font-size: var(--text_primary);
+			}
+
+			h2 {
+				font-size: var(--text_secondary);
+			}
+			
+			h3 {
+				font-size: var(--text_tertiary);
+			}
+			
+			section {
+				color: var(--text-color);
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>Hei :^)</h1>
+		<h2>Hei :^)</h2>
+		<h3>Hei :^)</h3>
+
+		<section>
+			<h2>Mellomtittel</h2>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, vitae odit voluptates ducimus temporibus sapiente nisi, placeat voluptatem ratione ipsa porro accusantium atque! Veniam eveniet ut eius sunt qui ipsum.</p>
+		</section>
+	</body>
+</html>

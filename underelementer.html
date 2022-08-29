@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Underelementer</title>
+
+		<style>
+			div a {
+				font-weight: bold;
+				color: green;
+			}
+
+			div > a {
+				color: green;
+			}
+			
+			li + li {
+				color: green;
+			}
+		</style>
+	</head>
+
+	<body>
+		<a href="http://nrk.no">nrk.no</a>
+
+		<div>
+			<a href="http://nrk.no">nrk.no</a>
+			<a href="http://nrk.no">nrk.no</a>
+			<a href="http://nrk.no">nrk.no</a>
+			<a href="http://nrk.no">nrk.no</a>
+
+			<section>
+				<a href="http://">gjelder ikke "div &gt; a"</a>
+			</section>
+		</div>
+		
+		<ul>
+			<li>First</li>
+			<li>Second</li>
+			<li>Third</li>
+			<div>
+				<ol>
+					<li>One</li>
+					<li>Two</li>
+					<li>Three</li>
+				</ol>
+			</div>
+		</ul>
+
+		<ol>
+			<li>Ha</li>
+			<li>Ha</li>
+			<li>Ha</li>
+			<li>Ha</li>
+		</ol>
+	</body>
+</html>
